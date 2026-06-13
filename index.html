@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Portfolio of Onkar Bendre, Software Development Engineer specializing in backend systems, AWS-native platforms, distributed workflows and AI-powered operational tooling."
+      content="Onkar Bendre — Software Development Engineer building reliable backend platforms, AWS-native distributed systems and AI-powered engineering tools."
     />
-    <meta name="theme-color" content="#0f172a" />
+    <meta name="theme-color" content="#050505" />
     <meta property="og:title" content="Onkar Bendre — Software Development Engineer" />
     <meta
       property="og:description"
-      content="Backend, platform and AI infrastructure engineer with 4+ years of experience building distributed systems at Amazon."
+      content="SDE II at Amazon Pay. Backend, platform, distributed systems and AI infrastructure."
     />
     <meta property="og:type" content="website" />
     <title>Onkar Bendre — Software Development Engineer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -27,7 +27,7 @@
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Onkar Bendre",
-        "jobTitle": "Software Development Engineer",
+        "jobTitle": "Software Development Engineer II",
         "email": "mailto:o.bendre93@gmail.com",
         "address": {
           "@type": "PostalAddress",
@@ -45,6 +45,7 @@
           "Distributed Systems",
           "Event-Driven Architecture",
           "LLMs",
+          "Retrieval-Augmented Generation",
           "Multi-Agent Systems",
           "ReactJS",
           "TypeScript"
@@ -53,8 +54,11 @@
     </script>
   </head>
   <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="cursor-glow" aria-hidden="true"></div>
+
     <header class="site-header" id="top">
-      <nav class="nav container" aria-label="Primary navigation">
+      <nav class="nav shell" aria-label="Primary navigation">
         <a class="brand" href="#top" aria-label="Onkar Bendre home">
           <span class="brand-mark">OB</span>
           <span>Onkar Bendre</span>
@@ -63,178 +67,207 @@
           Menu
         </button>
         <div class="nav-links" id="nav-links">
-          <a href="#experience">Experience</a>
-          <a href="#projects">Projects</a>
-          <a href="#skills">Skills</a>
+          <a href="#impact">Impact</a>
+          <a href="#work">Work</a>
+          <a href="#stack">Stack</a>
           <a href="#contact">Contact</a>
         </div>
       </nav>
     </header>
 
     <main>
-      <section class="hero section">
-        <div class="container hero-grid">
+      <section class="hero shell">
+        <div class="hero-kicker" data-reveal>
+          <span class="status-dot"></span>
+          SDE II at Amazon Pay · Backend · Platform · AI Infrastructure
+        </div>
+
+        <div class="hero-grid">
           <div class="hero-copy">
-            <p class="eyebrow">Software Development Engineer II · Amazon Pay · Hyderabad</p>
-            <h1>Building reliable financial platforms and AI-powered engineering tools.</h1>
-            <p class="hero-text">
-              I’m a software engineer with 4+ years of experience across backend, platform and front-end systems.
-              My work focuses on distributed systems, AWS-native infrastructure, regulated financial workflows and
-              internal AI platforms that help engineers debug, search and operate faster.
+            <h1 data-reveal>
+              I build systems that move money, scale quietly, and fail loudly before customers notice.
+            </h1>
+            <p class="hero-subtitle" data-reveal>
+              Software Development Engineer with 4+ years of experience building distributed financial workflows,
+              AWS-native platforms and AI-powered operational tooling at Amazon.
             </p>
-            <div class="hero-actions">
-              <a class="button primary" href="mailto:o.bendre93@gmail.com">Contact me</a>
+            <div class="hero-actions" data-reveal>
+              <a class="button primary" href="mailto:o.bendre93@gmail.com">Start a conversation</a>
               <a class="button secondary" href="https://www.linkedin.com/in/onkar-bendre" target="_blank" rel="noreferrer">LinkedIn</a>
               <a class="button ghost" href="https://github.com/Onkarbendre2000" target="_blank" rel="noreferrer">GitHub</a>
             </div>
           </div>
-          <aside class="hero-card" aria-label="Career highlights">
-            <div class="metric">
-              <span class="metric-value">5M+</span>
-              <span class="metric-label">customers served through credit-card onboarding workflows</span>
+
+          <aside class="system-card" data-reveal aria-label="Engineering snapshot">
+            <div class="card-topline">
+              <span>production.signal</span>
+              <span>live</span>
             </div>
-            <div class="metric">
-              <span class="metric-value">99.99%</span>
-              <span class="metric-label">availability across large-scale regulated workflows</span>
+            <div class="terminal-lines" aria-hidden="true">
+              <span><b>$</b> route traffic through resilient workflows</span>
+              <span><b>✓</b> 5M+ customers served</span>
+              <span><b>✓</b> 99.99% availability maintained</span>
+              <span><b>✓</b> 3K+ cards/day processed</span>
+              <span><b>→</b> AI ops platform: logs + metrics + knowledge</span>
             </div>
-            <div class="metric">
-              <span class="metric-value">18%</span>
-              <span class="metric-label">customer onboarding conversion improvement</span>
-            </div>
-            <div class="metric">
-              <span class="metric-value">40%</span>
-              <span class="metric-label">reduction in incident detection time through operational dashboards</span>
+            <div class="card-meter">
+              <span>Reliability</span>
+              <div class="meter"><i></i></div>
+              <strong>99.99%</strong>
             </div>
           </aside>
         </div>
-      </section>
 
-      <section class="section" id="experience">
-        <div class="container section-grid">
-          <div class="section-heading">
-            <p class="eyebrow">Experience</p>
-            <h2>Backend, platform and operational systems at scale.</h2>
-          </div>
-          <div class="timeline">
-            <article class="timeline-item">
-              <div class="timeline-meta">Jun 2024 — Present · Hyderabad</div>
-              <h3>Software Development Engineer II · Amazon</h3>
-              <p>
-                Architected and led onboarding and lifecycle workflows for Amazon Pay ICICI credit cards serving
-                5M+ customers, with a focus on high availability, KYC orchestration, downstream integrations and
-                regulated financial reliability.
-              </p>
-              <ul>
-                <li>Improved customer onboarding conversion by 18% through KYC, registration and orchestration optimizations.</li>
-                <li>Built event-driven services with AWS Lambda, DynamoDB, SQS, API Gateway and Step Functions.</li>
-                <li>Processed 3K+ new credit cards per day with fault-tolerant scalability.</li>
-                <li>Partnered with ICICI Bank engineering teams to increase successful carding rate by 12%.</li>
-              </ul>
-            </article>
-
-            <article class="timeline-item">
-              <div class="timeline-meta">Oct 2021 — Jun 2024 · Hyderabad</div>
-              <h3>Software Development Engineer I · Amazon</h3>
-              <p>
-                Delivered customer-facing features and compliance-critical launches across Amazon Pay credit-card
-                registration, onboarding and lifecycle systems.
-              </p>
-              <ul>
-                <li>Delivered 10+ customer-facing features, increasing registration conversion by 8%.</li>
-                <li>Maintained 100% SLA adherence across regulated payment workflows.</li>
-                <li>Built CloudWatch and OpenSearch dashboards that reduced incident detection time by 40%.</li>
-                <li>Developed Java and Spring Boot microservices and REST APIs for payment workflows.</li>
-              </ul>
-            </article>
-          </div>
+        <div class="hero-strip" data-reveal>
+          <span>Java</span>
+          <span>Spring Boot</span>
+          <span>AWS Lambda</span>
+          <span>DynamoDB</span>
+          <span>SQS</span>
+          <span>Step Functions</span>
+          <span>OpenSearch</span>
+          <span>Bedrock</span>
+          <span>React</span>
+          <span>TypeScript</span>
         </div>
       </section>
 
-      <section class="section alt" id="projects">
-        <div class="container section-grid">
-          <div class="section-heading">
-            <p class="eyebrow">Featured work</p>
-            <h2>HeliosAI: internal AI platform for engineering operations.</h2>
-          </div>
-          <article class="project-card">
-            <div class="project-card-header">
-              <span class="tag">AI Infrastructure</span>
-              <span class="tag">RAG</span>
-              <span class="tag">AWS Bedrock</span>
-              <span class="tag">Multi-Agent Systems</span>
-            </div>
-            <h3>Founding engineer / core contributor</h3>
+      <section class="section shell" id="impact">
+        <div class="section-label" data-reveal>Proof over promises</div>
+        <div class="impact-grid">
+          <article class="impact-card huge" data-reveal>
+            <span class="metric">18%</span>
+            <h2>Higher onboarding conversion</h2>
+            <p>Optimized KYC, registration and downstream orchestration across Amazon Pay ICICI credit-card workflows.</p>
+          </article>
+          <article class="impact-card" data-reveal>
+            <span class="metric">5M+</span>
+            <h2>Customers served</h2>
+            <p>Built lifecycle systems for large-scale regulated financial products.</p>
+          </article>
+          <article class="impact-card" data-reveal>
+            <span class="metric">40%</span>
+            <h2>Faster detection</h2>
+            <p>Created CloudWatch and OpenSearch dashboards that improved operational visibility.</p>
+          </article>
+          <article class="impact-card" data-reveal>
+            <span class="metric">12%</span>
+            <h2>Carding-rate lift</h2>
+            <p>Partnered with ICICI engineering teams to streamline integrations and reduce friction.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section shell split" id="work">
+        <div class="section-copy" data-reveal>
+          <div class="section-label">Selected work</div>
+          <h2>Not a feature factory. I own messy systems end-to-end.</h2>
+          <p>
+            My strongest work sits where product impact, reliability, distributed architecture and operational depth meet.
+          </p>
+        </div>
+
+        <div class="work-list">
+          <article class="work-card" data-reveal>
+            <div class="work-meta">Amazon · SDE II · Jun 2024 — Present</div>
+            <h3>Credit-card onboarding and lifecycle workflows</h3>
             <p>
-              Designed and built an AI-powered operations and knowledge platform using multi-agent orchestration over
-              Amazon Bedrock. The platform enabled natural-language access to operational data across OpenSearch,
-              Athena and CloudWatch, helping developers self-serve production metrics, logs and knowledge-base answers.
+              Architected large-scale onboarding and lifecycle flows for Amazon Pay ICICI credit cards with 99.99%
+              availability, fault-tolerant event processing and regulated financial reliability.
             </p>
-            <ul class="project-list">
-              <li>Implemented retrieval-augmented generation and tenant-aware knowledge bases.</li>
-              <li>Built natural-language to structured-query workflows across logs, metrics and data sources.</li>
-              <li>Designed secure access-control patterns for adoption across multiple Amazon Pay teams.</li>
-              <li>Reduced manual investigation effort by enabling conversational operational debugging.</li>
+            <ul>
+              <li>Designed AWS-native workflows using Lambda, DynamoDB, SQS, API Gateway and Step Functions.</li>
+              <li>Processed 3K+ new credit cards per day while protecting customer experience and SLA commitments.</li>
+              <li>Led integration improvements with bank engineering teams for better downstream success rates.</li>
+            </ul>
+          </article>
+
+          <article class="work-card" data-reveal>
+            <div class="work-meta">Amazon · SDE I · Oct 2021 — Jun 2024</div>
+            <h3>Payment platform features and operational visibility</h3>
+            <p>
+              Delivered 10+ customer-facing features across Amazon Pay registration and lifecycle systems while
+              maintaining 100% SLA adherence in compliance-critical workflows.
+            </p>
+            <ul>
+              <li>Built Java and Spring Boot microservices and REST APIs for onboarding and lifecycle management.</li>
+              <li>Improved registration conversion by 8% through customer-flow improvements.</li>
+              <li>Reduced incident detection time by building targeted operational dashboards.</li>
             </ul>
           </article>
         </div>
       </section>
 
-      <section class="section" id="skills">
-        <div class="container">
-          <div class="section-heading wide">
-            <p class="eyebrow">Skills</p>
-            <h2>Strong backend base, with enough frontend and AI depth to ship full platforms.</h2>
+      <section class="section shell helios-section">
+        <article class="helios-card" data-reveal>
+          <div>
+            <div class="section-label">Signature project</div>
+            <h2>HeliosAI</h2>
+            <p class="helios-lead">
+              An internal AI operations platform that turns natural language into useful answers across logs,
+              metrics, structured data and knowledge bases.
+            </p>
           </div>
-          <div class="skills-grid">
-            <article class="skill-card">
-              <h3>Languages & Frameworks</h3>
-              <p>Java, C++, JavaScript, SQL, Spring Boot, REST APIs, Microservices</p>
-            </article>
-            <article class="skill-card">
-              <h3>Cloud & Data</h3>
-              <p>AWS Lambda, DynamoDB, API Gateway, SQS, Step Functions, Bedrock, OpenSearch, Athena, MySQL</p>
-            </article>
-            <article class="skill-card">
-              <h3>Architecture</h3>
-              <p>Distributed systems, event-driven architecture, fault tolerance, observability, regulated workflows</p>
-            </article>
-            <article class="skill-card">
-              <h3>AI & Frontend</h3>
-              <p>LLMs, multi-agent systems, retrieval-augmented generation, AI infrastructure, ReactJS, TypeScript</p>
-            </article>
-            <article class="skill-card">
-              <h3>Tools</h3>
-              <p>Git, JIRA, Postman, CloudWatch, OpenSearch dashboards, operational analytics</p>
-            </article>
-            <article class="skill-card">
-              <h3>Education</h3>
-              <p>Bachelor of Engineering in Computer Engineering, Pune Institute of Computer Technology, 2017–2021</p>
-            </article>
+          <div class="helios-grid">
+            <div>
+              <span>01</span>
+              <h3>Multi-agent orchestration</h3>
+              <p>Built agent flows over Amazon Bedrock for OpenSearch, Athena, CloudWatch and knowledge retrieval.</p>
+            </div>
+            <div>
+              <span>02</span>
+              <h3>Tenant-aware RAG</h3>
+              <p>Implemented knowledge bases that infer schemas and data sources without brittle hardcoding.</p>
+            </div>
+            <div>
+              <span>03</span>
+              <h3>Self-serve debugging</h3>
+              <p>Helped engineers query production signals conversationally instead of manually hunting through tools.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="section shell" id="stack">
+        <div class="section-label" data-reveal>Stack</div>
+        <div class="stack-board" data-reveal>
+          <div class="stack-column">
+            <h3>Backend</h3>
+            <p>Java · Spring Boot · REST APIs · Microservices · Event-driven architecture</p>
+          </div>
+          <div class="stack-column">
+            <h3>Cloud & Data</h3>
+            <p>AWS Lambda · DynamoDB · API Gateway · SQS · Step Functions · OpenSearch · Athena · MySQL</p>
+          </div>
+          <div class="stack-column">
+            <h3>AI Systems</h3>
+            <p>LLMs · Multi-agent systems · RAG · Amazon Bedrock · AI infrastructure · Operational analytics</p>
+          </div>
+          <div class="stack-column">
+            <h3>Frontend & Tools</h3>
+            <p>ReactJS · TypeScript · JavaScript · Git · JIRA · Postman · CloudWatch</p>
           </div>
         </div>
       </section>
 
-      <section class="section contact" id="contact">
-        <div class="container contact-card">
-          <p class="eyebrow">Contact</p>
-          <h2>Want to discuss backend, platform or AI infrastructure roles?</h2>
+      <section class="section shell contact" id="contact">
+        <div class="contact-card" data-reveal>
+          <p class="section-label">Available for serious conversations</p>
+          <h2>Backend, platform, AI infrastructure, distributed systems.</h2>
           <p>
-            I’m open to software engineering opportunities where reliability, ownership and measurable product impact matter.
+            If the role needs ownership, scale and strong engineering judgment, that’s the zone where I do my best work.
           </p>
-          <div class="contact-links">
-            <a href="mailto:o.bendre93@gmail.com">o.bendre93@gmail.com</a>
-            <a href="https://www.linkedin.com/in/onkar-bendre" target="_blank" rel="noreferrer">linkedin.com/in/onkar-bendre</a>
-            <a href="https://github.com/Onkarbendre2000" target="_blank" rel="noreferrer">github.com/Onkarbendre2000</a>
+          <div class="contact-actions">
+            <a class="button primary" href="mailto:o.bendre93@gmail.com">Email me</a>
+            <a class="button secondary" href="https://www.linkedin.com/in/onkar-bendre" target="_blank" rel="noreferrer">Connect on LinkedIn</a>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <div class="container footer-inner">
-        <span>© <span id="year"></span> Onkar Bendre</span>
-        <a href="#top">Back to top</a>
-      </div>
+    <footer class="footer shell">
+      <span>© <span id="year"></span> Onkar Bendre</span>
+      <a href="#top">Back to top</a>
     </footer>
 
     <script src="script.js"></script>
