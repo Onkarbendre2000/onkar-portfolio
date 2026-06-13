@@ -1,3 +1,9 @@
+const faviconLink = document.createElement('link');
+faviconLink.rel = 'icon';
+faviconLink.type = 'image/svg+xml';
+faviconLink.href = 'favicon.svg';
+document.head.appendChild(faviconLink);
+
 const themeLink = document.createElement('link');
 themeLink.rel = 'stylesheet';
 themeLink.href = 'theme.css';
