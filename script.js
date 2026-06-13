@@ -1,3 +1,8 @@
+const themeLink = document.createElement('link');
+themeLink.rel = 'stylesheet';
+themeLink.href = 'theme.css';
+document.head.appendChild(themeLink);
+
 const year = document.querySelector('#year');
 const toggle = document.querySelector('.nav-toggle');
 const links = document.querySelector('#nav-links');
@@ -198,7 +203,7 @@ if (canvas) {
 
       context.beginPath();
       context.arc(particle.x, particle.y, particle.r, 0, Math.PI * 2);
-      context.fillStyle = 'rgba(215, 255, 95, 0.56)';
+      context.fillStyle = 'rgba(255, 180, 84, 0.56)';
       context.fill();
     });
 
@@ -211,7 +216,7 @@ if (canvas) {
         context.beginPath();
         context.moveTo(a.x, a.y);
         context.lineTo(b.x, b.y);
-        context.strokeStyle = `rgba(215, 255, 95, ${0.12 * (1 - distance / 125)})`;
+        context.strokeStyle = `rgba(125, 211, 252, ${0.12 * (1 - distance / 125)})`;
         context.stroke();
       }
     }
