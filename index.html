@@ -54,16 +54,20 @@
     </script>
   </head>
   <body>
+    <div class="page-progress" aria-hidden="true"><span></span></div>
+    <canvas id="system-canvas" aria-hidden="true"></canvas>
+    <div class="aurora aurora-one" aria-hidden="true"></div>
+    <div class="aurora aurora-two" aria-hidden="true"></div>
     <div class="noise" aria-hidden="true"></div>
     <div class="cursor-glow" aria-hidden="true"></div>
 
     <header class="site-header" id="top">
       <nav class="nav shell" aria-label="Primary navigation">
-        <a class="brand" href="#top" aria-label="Onkar Bendre home">
+        <a class="brand magnetic" href="#top" aria-label="Onkar Bendre home">
           <span class="brand-mark">OB</span>
           <span>Onkar Bendre</span>
         </a>
-        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <button class="nav-toggle magnetic" type="button" aria-expanded="false" aria-controls="nav-links">
           Menu
         </button>
         <div class="nav-links" id="nav-links">
@@ -85,33 +89,33 @@
         <div class="hero-grid">
           <div class="hero-copy">
             <h1 data-reveal>
-              I build systems that move money, scale quietly, and fail loudly before customers notice.
+              Backend systems. AI ops platforms. Financial workflows that scale.
             </h1>
             <p class="hero-subtitle" data-reveal>
               Software Development Engineer with 4+ years of experience building distributed financial workflows,
               AWS-native platforms and AI-powered operational tooling at Amazon.
             </p>
             <div class="hero-actions" data-reveal>
-              <a class="button primary" href="mailto:o.bendre93@gmail.com">Start a conversation</a>
-              <a class="button secondary" href="https://www.linkedin.com/in/onkar-bendre" target="_blank" rel="noreferrer">LinkedIn</a>
-              <a class="button ghost" href="https://github.com/Onkarbendre2000" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="button primary magnetic" href="mailto:o.bendre93@gmail.com">Email me</a>
+              <a class="button secondary magnetic" href="https://www.linkedin.com/in/onkar-bendre" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a class="button ghost magnetic" href="https://github.com/Onkarbendre2000" target="_blank" rel="noreferrer">GitHub</a>
             </div>
           </div>
 
-          <aside class="system-card" data-reveal aria-label="Engineering snapshot">
+          <aside class="system-card tilt-card" data-reveal data-tilt aria-label="Resume-backed engineering metrics">
             <div class="card-topline">
-              <span>production.signal</span>
-              <span>live</span>
+              <span>resume-backed</span>
+              <span>metrics</span>
             </div>
             <div class="terminal-lines" aria-hidden="true">
-              <span><b>$</b> route traffic through resilient workflows</span>
-              <span><b>✓</b> 5M+ customers served</span>
-              <span><b>✓</b> 99.99% availability maintained</span>
-              <span><b>✓</b> 3K+ cards/day processed</span>
-              <span><b>→</b> AI ops platform: logs + metrics + knowledge</span>
+              <span><b>5M+</b> customers served through credit-card lifecycle workflows</span>
+              <span><b>99.99%</b> availability delivered across large-scale onboarding systems</span>
+              <span><b>18%</b> customer onboarding conversion improvement</span>
+              <span><b>3K+</b> new credit cards processed per day</span>
+              <span><b>40%</b> reduction in incident detection time</span>
             </div>
             <div class="card-meter">
-              <span>Reliability</span>
+              <span>Availability</span>
               <div class="meter"><i></i></div>
               <strong>99.99%</strong>
             </div>
@@ -132,26 +136,33 @@
         </div>
       </section>
 
+      <section class="marquee" aria-label="Technology stack">
+        <div class="marquee-track">
+          <span>Java</span><span>Spring Boot</span><span>Microservices</span><span>Event-driven architecture</span><span>AWS Lambda</span><span>DynamoDB</span><span>SQS</span><span>Step Functions</span><span>API Gateway</span><span>OpenSearch</span><span>Athena</span><span>Bedrock</span><span>LLMs</span><span>RAG</span><span>ReactJS</span><span>TypeScript</span>
+          <span>Java</span><span>Spring Boot</span><span>Microservices</span><span>Event-driven architecture</span><span>AWS Lambda</span><span>DynamoDB</span><span>SQS</span><span>Step Functions</span><span>API Gateway</span><span>OpenSearch</span><span>Athena</span><span>Bedrock</span><span>LLMs</span><span>RAG</span><span>ReactJS</span><span>TypeScript</span>
+        </div>
+      </section>
+
       <section class="section shell" id="impact">
-        <div class="section-label" data-reveal>Proof over promises</div>
+        <div class="section-label" data-reveal>Resume-backed impact</div>
         <div class="impact-grid">
-          <article class="impact-card huge" data-reveal>
-            <span class="metric">18%</span>
+          <article class="impact-card huge tilt-card" data-reveal data-tilt>
+            <span class="metric"><span data-count="18">0</span>%</span>
             <h2>Higher onboarding conversion</h2>
             <p>Optimized KYC, registration and downstream orchestration across Amazon Pay ICICI credit-card workflows.</p>
           </article>
-          <article class="impact-card" data-reveal>
-            <span class="metric">5M+</span>
+          <article class="impact-card tilt-card" data-reveal data-tilt>
+            <span class="metric"><span data-count="5">0</span>M+</span>
             <h2>Customers served</h2>
             <p>Built lifecycle systems for large-scale regulated financial products.</p>
           </article>
-          <article class="impact-card" data-reveal>
-            <span class="metric">40%</span>
+          <article class="impact-card tilt-card" data-reveal data-tilt>
+            <span class="metric"><span data-count="40">0</span>%</span>
             <h2>Faster detection</h2>
             <p>Created CloudWatch and OpenSearch dashboards that improved operational visibility.</p>
           </article>
-          <article class="impact-card" data-reveal>
-            <span class="metric">12%</span>
+          <article class="impact-card tilt-card" data-reveal data-tilt>
+            <span class="metric"><span data-count="12">0</span>%</span>
             <h2>Carding-rate lift</h2>
             <p>Partnered with ICICI engineering teams to streamline integrations and reduce friction.</p>
           </article>
@@ -168,7 +179,7 @@
         </div>
 
         <div class="work-list">
-          <article class="work-card" data-reveal>
+          <article class="work-card tilt-card" data-reveal data-tilt>
             <div class="work-meta">Amazon · SDE II · Jun 2024 — Present</div>
             <h3>Credit-card onboarding and lifecycle workflows</h3>
             <p>
@@ -182,7 +193,7 @@
             </ul>
           </article>
 
-          <article class="work-card" data-reveal>
+          <article class="work-card tilt-card" data-reveal data-tilt>
             <div class="work-meta">Amazon · SDE I · Oct 2021 — Jun 2024</div>
             <h3>Payment platform features and operational visibility</h3>
             <p>
@@ -209,17 +220,17 @@
             </p>
           </div>
           <div class="helios-grid">
-            <div>
+            <div class="tilt-card" data-reveal data-tilt>
               <span>01</span>
               <h3>Multi-agent orchestration</h3>
               <p>Built agent flows over Amazon Bedrock for OpenSearch, Athena, CloudWatch and knowledge retrieval.</p>
             </div>
-            <div>
+            <div class="tilt-card" data-reveal data-tilt>
               <span>02</span>
               <h3>Tenant-aware RAG</h3>
               <p>Implemented knowledge bases that infer schemas and data sources without brittle hardcoding.</p>
             </div>
-            <div>
+            <div class="tilt-card" data-reveal data-tilt>
               <span>03</span>
               <h3>Self-serve debugging</h3>
               <p>Helped engineers query production signals conversationally instead of manually hunting through tools.</p>
@@ -231,19 +242,19 @@
       <section class="section shell" id="stack">
         <div class="section-label" data-reveal>Stack</div>
         <div class="stack-board" data-reveal>
-          <div class="stack-column">
+          <div class="stack-column tilt-card" data-tilt>
             <h3>Backend</h3>
             <p>Java · Spring Boot · REST APIs · Microservices · Event-driven architecture</p>
           </div>
-          <div class="stack-column">
+          <div class="stack-column tilt-card" data-tilt>
             <h3>Cloud & Data</h3>
             <p>AWS Lambda · DynamoDB · API Gateway · SQS · Step Functions · OpenSearch · Athena · MySQL</p>
           </div>
-          <div class="stack-column">
+          <div class="stack-column tilt-card" data-tilt>
             <h3>AI Systems</h3>
             <p>LLMs · Multi-agent systems · RAG · Amazon Bedrock · AI infrastructure · Operational analytics</p>
           </div>
-          <div class="stack-column">
+          <div class="stack-column tilt-card" data-tilt>
             <h3>Frontend & Tools</h3>
             <p>ReactJS · TypeScript · JavaScript · Git · JIRA · Postman · CloudWatch</p>
           </div>
@@ -251,15 +262,15 @@
       </section>
 
       <section class="section shell contact" id="contact">
-        <div class="contact-card" data-reveal>
+        <div class="contact-card tilt-card" data-reveal data-tilt>
           <p class="section-label">Available for serious conversations</p>
           <h2>Backend, platform, AI infrastructure, distributed systems.</h2>
           <p>
             If the role needs ownership, scale and strong engineering judgment, that’s the zone where I do my best work.
           </p>
           <div class="contact-actions">
-            <a class="button primary" href="mailto:o.bendre93@gmail.com">Email me</a>
-            <a class="button secondary" href="https://www.linkedin.com/in/onkar-bendre" target="_blank" rel="noreferrer">Connect on LinkedIn</a>
+            <a class="button primary magnetic" href="mailto:o.bendre93@gmail.com">Email me</a>
+            <a class="button secondary magnetic" href="https://www.linkedin.com/in/onkar-bendre" target="_blank" rel="noreferrer">Connect on LinkedIn</a>
           </div>
         </div>
       </section>
